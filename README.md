@@ -6,5 +6,5 @@ Based on the web designer magazine I have learned from, here are some of the use
 
 ## HTML 
 
-#1 <Dialog> - Display a popup or modal window
+#1 `<Dialog>` - Display a popup or modal window
 
