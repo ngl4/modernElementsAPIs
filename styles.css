@@ -1,0 +1,19 @@
+dialog::backdrop {
+    background: linear-gradient(#e66465, #9198e5);
+    opacity: 0.2;
+}
+
+dialog menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 1rem;
+}
+
+.green-yes {
+    color: green;
+}
+
+.red-no {
+    color: red;
+}
