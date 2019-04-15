@@ -4,7 +4,9 @@ Based on the web designer magazine I have learned from, here are some of the use
 
 _"Semantic Markup is vital for Accessibility, Search Engines, and much more - But it is so often misused. Build a strong foundation and treat CSS and JavaScript like an Enhancement."_ - [Matt Crouch](https://twitter.com/mattcrouchuk), Software Engineer at Vidsy 
 
-## HTML 
+## HTML (Essential Sectioning Elements)
+
+For example, `<main>`, `<nav>`, `<header>`, `<footer>`, `<aside>`, `<article>`, `<section>`, `<h1>` to `<h6>`, and more, including those below:  
 
 #1 `<Dialog>` - Display a popup or modal window
 
