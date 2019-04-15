@@ -1,3 +1,9 @@
+body {
+    margin-top: 6rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
 dialog::backdrop {
     background: linear-gradient(#e66465, #9198e5);
     opacity: 0.2;
@@ -12,8 +18,10 @@ dialog menu {
 
 .green-yes {
     color: green;
+    font-weight: bold;
 }
 
 .red-no {
     color: red;
+    font-weight: bold;
 }

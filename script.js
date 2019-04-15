@@ -31,7 +31,7 @@ dialog.addEventListener("close", function(){
     //Read the value of the button used to close the modal 
     console.log(dialog); //you will see the whole dialog element from HTML
     console.log(dialog.returnValue); //see console to see the return value 
-    if (dialog.returnValue === "yes"){
+    if (dialog.returnValue === "YES"){
         result.classList.add("green-yes"); //vanilla js to add and remove class
         result.classList.remove("red-no");
     }else {
