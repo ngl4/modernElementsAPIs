@@ -39,34 +39,44 @@
                 et est et urna egestas feugiat.</p>
       </p>
     </section>
+    <br />
 
-    <section>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-        tristique est nec bibendum imperdiet. Maecenas vitae faucibus sapien. Ut
-        et est et urna egestas feugiat. Aliquam dictum libero quis sodales
-        tincidunt. Vestibulum tellus lectus, accumsan a velit eget, porttitor
-        mollis magna. Praesent in pulvinar lectus, tempus venenatis elit. Nam
-        congue vulputate magna ac vulputate. Aliquam sapien lorem, viverra vel
-        nulla in, accumsan vulputate quam. Vestibulum sit amet tincidunt nulla.
-        Nam laoreet enim facilisis purus pulvinar tempus. Praesent finibus
-        fringilla magna, vulputate maximus ante maximus quis. Quisque eros nisi,
-        varius id mollis et, auctor sit amet mauris. Duis sed nunc vehicula,
-        semper ligula placerat, commodo elit. Quisque rutrum, justo eget congue
-        vulputate, elit dui commodo erat, id eleifend lacus mi ac tellus.
-        Praesent mattis sapien eu fermentum ultrices. Praesent elementum
-        consectetur lectus ac finibus. Morbi condimentum metus mauris, et
-        vehicula risus viverra eget. In non est lobortis, rutrum elit id, tempor
-        magna. Mauris lectus enim, consectetur et felis nec, pretium tempus
-        ipsum. Proin convallis mi at iaculis vehicula. Quisque consectetur nulla
-        eu sapien interdum mollis et at velit. In porta porttitor ipsum quis
-        bibendum. Duis lacinia turpis at hendrerit vulputate. Morbi pretium,
-        risus ac imperdiet efficitur, urna est ornare ex, at elementum turpis
-        lorem eget lorem. Nam cursus viverra odio ac molestie. Quisque lobortis
-        ex vitae metus gravida vulputate. Integer sagittis, lacus quis convallis
-        vestibulum, ipsum enim scelerisque lectus, ut pulvinar diam dui vitae
-        sem. Quisque ut tristique purus. Phasellus a iaculis nisi.
-      </p>
+    <!-- details -- denote a single collapsible area. Any content insdie that block will be hidden by default unitl the Details heading is clicked -->
+    <h2>#2: HTML - Details & Summary</h2>
+    <details open>
+        <summary>What is a <code>&lt;details&gt;</code> element?</summary>
+        <p>
+            Each <code>&lt;details&gt;</code> element denotes a single collapsible area. Any content insdie that block will be hidden by default unitl the Details heading is clicked.
+        </p>
+        <p>Adding an 'open' attribute will expand the block. This can also be triggered through JavaScript as a way to reveal certain info to the user</p>
+        <p>Multiple  <code>&lt;details&gt;</code> elements can also be nested without issue. See below.</p>
+        <details class="second-nesting">
+            <summary>Here is a 2nd nesting <code>&lt;details&gt;</code> element</summary>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                    tristique est nec bibendum imperdiet.</p>
+                    <details class="third-nesting">
+                        <summary>Here is a 3rd nesting <code>&lt;details&gt;</code> element</summary>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                                        tristique est nec bibendum imperdiet.</p>
+                    </details>
+        </details>
+        </details>
+    </details>
+    <br />
+    <!-- summary - replace the default heading to the contents of that element -->
+    <details>
+        <summary>What is a <code>&lt;summary&gt;</code> element?</summary>
+        <p>
+        Adding a <code>&lt;summary&gt;</code> to the top of the block will replace the default heading to the contents of that element. The heading then becomes interactive.
+        </p>
+    </details>
+    <br />
+    <details>
+        <summary>Which browser supports both <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> elements?</summary>
+        <p>
+        Both of these elements are available in all browsers apart from <strong>Edge</strong> and <strong>IE</strong>. 
+        </p>
+    </details>
 
       <p>
         Nullam vitae tempus ex, semper aliquet eros. Integer quis justo arcu.
@@ -238,7 +248,6 @@
         porta erat. Cras augue massa, ultricies a massa gravida, tempor interdum
         elit. Curabitur egestas magna non ultrices iaculis.
       </p>
-    </section>
   </body>
   <script src="script.js"></script>
 </html>

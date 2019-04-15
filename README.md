@@ -8,3 +8,4 @@ _"Semantic Markup is vital for Accessibility, Search Engines, and much more - Bu
 
 #1 `<Dialog>` - Display a popup or modal window
 
+#2 `<Details>` and `<Summary>` - Show and Hide extra content under collapsible heading without using JavaScript 
