@@ -17,3 +17,22 @@ For example, `<main>`, `<nav>`, `<header>`, `<footer>`, `<aside>`, `<article>`, 
 
 **One More Sidenote:**
 "The picture element is best used in diagrams and informational images rather than simply supplying different resolution photos based on width" 
+
+
+## HTML (Essential Inline Elements)
+
+Avoid using `<span>` if you can and try elements designed for the job, See below:
+
+#1 `<Time>` - Dates and times are formatted differently across the world and so cannot be reliably parsed by a search engine or email client. Specify what parts of a sentence are a time and allow programs to extract and use that information. 
+
+_Here are two great links with demo:_ 
+    1) CSS-Tricks article on [the `time` Element](https://css-tricks.com/time-element/) 
+    2) [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time) 
+
+#2 `<Mark>`
+
+#3 `<ABBR>`
+
+#4 `<Q>`
+
+#5 `<KBD>`
