@@ -11,3 +11,9 @@ For example, `<main>`, `<nav>`, `<header>`, `<footer>`, `<aside>`, `<article>`, 
 #1 `<Dialog>` - Display a popup or modal window
 
 #2 `<Details>` and `<Summary>` - Show and Hide extra content under collapsible heading without using JavaScript 
+
+#3 `<Picture>`- Respond to different viewports and serve specialised content to serve them better 
+(_personally, I do not really like this picture element. It is really similar to media query, but the only problem will be you are not able to add class to `srcset`, and it is linked with the `img` element only. If you add percentage change to an image, based on sourceset aspect ratio, it will influence the display of the image especially when the screen size is smaller. *If you have all the different sizes images ready and you do not have to fix its size in css, `srcset` will definitely be a great choice. Otherwise, I might prefer the use of media query and css instead of the use of `srcset`_)
+
+**One More Sidenote:**
+"The picture element is best used in diagrams and informational images rather than simply supplying different resolution photos based on width" 

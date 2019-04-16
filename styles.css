@@ -35,3 +35,11 @@ dialog menu {
     margin-left: 5rem;
     color: darkgreen;
 }
+
+.stairs-img {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+

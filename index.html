@@ -41,7 +41,7 @@
     </section>
     <br />
 
-    <!-- details -- denote a single collapsible area. Any content insdie that block will be hidden by default unitl the Details heading is clicked -->
+    <!-- <details> -- denote a single collapsible area. Any content insdie that block will be hidden by default unitl the Details heading is clicked -->
     <h2>#2: HTML - Details & Summary</h2>
     <details open>
         <summary>What is a <code>&lt;details&gt;</code> element?</summary>
@@ -63,7 +63,7 @@
         </details>
     </details>
     <br />
-    <!-- summary - replace the default heading to the contents of that element -->
+    <!-- <summary> - replace the default heading to the contents of that element -->
     <details>
         <summary>What is a <code>&lt;summary&gt;</code> element?</summary>
         <p>
@@ -88,30 +88,15 @@
         efficitur eros. Sed vel vulputate arcu, vitae lobortis tellus. Aliquam
         varius sapien ut augue facilisis cursus. Nulla sit amet velit eu velit
         finibus placerat. Suspendisse maximus leo ac dolor viverra accumsan.
-        Fusce porta massa egestas leo tempus ullamcorper. Fusce vitae metus mi.
-        Integer dignissim vel tortor ac laoreet. Ut eu volutpat nisl. Proin
-        finibus nisl eu posuere congue. Pellentesque dignissim elementum mattis.
-        Sed laoreet at nisi sed tincidunt. Suspendisse convallis dolor ac
-        fermentum vehicula. Duis lorem ex, aliquet quis tempus nec, iaculis sit
-        amet lectus. Proin non venenatis lectus. Curabitur sit amet ligula at
-        nulla consequat malesuada ac ut ligula. Sed id dui a turpis egestas
-        porta. Aliquam tristique, tortor ac blandit commodo, felis lectus
-        consequat leo, sit amet auctor libero ex eu ex. Vestibulum lacinia
-        ultricies mollis. Donec elit lectus, ornare non turpis at, posuere
-        sollicitudin lorem. Integer efficitur consequat vehicula. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit. Suspendisse finibus, lacus
-        a scelerisque fringilla, ligula ipsum imperdiet nisl, ac ultrices nisi
-        lorem non velit. Nulla facilisi. Phasellus bibendum est dictum convallis
-        tempus. Maecenas id libero neque. Nullam sodales tellus nec malesuada
-        lacinia. Ut porta mauris in purus lacinia, sed suscipit tortor egestas.
-        Suspendisse varius pulvinar mauris vel fermentum. Suspendisse lacinia
-        vulputate nunc cursus pellentesque. Sed sit amet justo pretium, pharetra
-        augue blandit, dignissim purus. Nullam congue, justo id ultricies
-        iaculis, mi nibh posuere felis, sed vehicula dolor nulla eu sapien. Sed
-        imperdiet nisl vitae porta vulputate. Ut id egestas ante, ullamcorper
-        porta erat. Cras augue massa, ultricies a massa gravida, tempor interdum
-        elit. Curabitur egestas magna non ultrices iaculis.
+        Fusce porta massa egestas leo tempus ullamcorper. 
       </p>
+
+      <picture>
+          <!-- <source srcset="stairs.jpg" media="(max-aspect-ratio: 2/3)" type="image/jpg"> -->
+          <source srcset="floors.jpg" media="(min-aspect-ratio: 2/3) and (max-aspect-ratio: 3/2)" type="image/jpg">
+          <source srcset="stairs.jpg"  media="(min-aspect-ratio: 3/2)" type="image/jpg">
+          <img alt="stairs" src="stairs.jpg" class="stairs-img" />
+      </picture>
       <p>
         Nullam vitae tempus ex, semper aliquet eros. Integer quis justo arcu.
         Donec sem eros, maximus quis porta eget, efficitur quis velit. Morbi et
