@@ -28,13 +28,23 @@ Avoid using `<span>` if you can and try elements designed for the job, See below
 _Here are two great links with demo:_ 
 
     1) CSS-Tricks article on [the `time` Element](https://css-tricks.com/time-element/) 
-    
-    2) [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time) 
 
-#2 `<Mark>`
+    2) [MDN web docs](https://mzl.la/2v46JSw) 
 
-#3 `<ABBR>`
+#2 `<Mark>` - When wanting to highlight a few words of a sentence, it may seem best to use `<strong>`. While `<strong>` denotes **importance**, `<mark>` denotes **relevance** in the current situation. An example of this would be matched terms in a search result. `<mark>` is exactly like **highlighting** text that is/are relevant to the content or the current activity. 
 
-#4 `<Q>`
+_Find out more here:_ [MDN web docs](https://mzl.la/2MI8Ej8) 
 
-#5 `<KBD>`
+#3 `<ABBR>` - Language is full of abbreviations that readers potentially may not be familiar with. The `<abbr>` element provides a way to define potentially unfamiliar abbreviations with an accompanying 'title' attribute.
+
+_Find out more here:_ [MDN web docs](https://mzl.la/2NR3aqF) 
+
+
+#4 `<Q>`- When quoting a small section of text, surround it with <q>. The optional 'cite' attribute can provide a name, reference or link to the original source. Browsers will add quote marks by default.
+
+_Find out more here:_ [MDN web docs](https://mzl.la/2xqiOze) 
+
+
+#5 `<KBD>` - When providing instructions that should be input by a user, `<kbd>` should surround that command. While typically used for keyboard inputs it can be used for any kind of text entry, including voice. 
+
+_Find out more here:_ [MDN web docs](https://mzl.la/2D9ojbB) 
