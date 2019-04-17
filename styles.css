@@ -43,3 +43,6 @@ dialog menu {
     display: flex;
 }
 
+.match:hover {
+    background-color: pink;
+}
