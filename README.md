@@ -48,3 +48,27 @@ _Find out more here:_ [MDN web docs](https://mzl.la/2xqiOze)
 #5 `<KBD>` - When providing instructions that should be input by a user, `<kbd>` should surround that command. While typically used for keyboard inputs it can be used for any kind of text entry, including voice. 
 
 _Find out more here:_ [MDN web docs](https://mzl.la/2D9ojbB) 
+
+
+## CSS (Elements & APIs)
+
+#1 Clip-Path - Define part of an element that should be displayed. Use it to create shapes without having to fake it with images. 
+
+_Find out more [here](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)_
+
+#2 CSS Shapes - Create more exciting, print-inspired layouts. Mark out a shape around an element for the content to flow around.
+
+_Find out more [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Shapes)_
+
+#3 Custom Properties - Pass a single value to multiple selectors. They can read and update through JavaScript and can be useful for site-wide themes.
+
+_Find out more [here](https://www.w3.org/TR/css-variables/)_
+
+#4 CSS filters - Alter the appearance of elements without having to alter the file itself. For example, blur an image to make a background.
+
+_Find out more [here](https://css-tricks.com/almanac/properties/f/filter/)_
+
+#5 Scroll Snapping - Create scrollable elements that have defined regions that should snap into view. Those larger than the viewport are handled automatically.
+
+_Find out more [here](https://developers.google.com/web/updates/2018/07/css-scroll-snap)_
+
